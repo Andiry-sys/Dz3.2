@@ -1,0 +1,36 @@
+body {
+  background: #f2f2f2;
+}
+
+.nav-ct li,
+a {
+  display: inline-block;
+  text-align: center;
+  font: normal 14px Open Sans;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+a::after {
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.nav-ct li,
+a {
+  display: inline-block;
+  text-align: center;
+  font: normal 14px Open Sans;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
